@@ -2,4 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app';
 
-ReactDOM.render(<App />, document.getElementById('ds-app'));
+const element = document.getElementById('ds-app');
+
+ReactDOM.render(<App />, element);

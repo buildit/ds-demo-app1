@@ -18,6 +18,11 @@
   "author": "Wipro Digital",
   "license": "MIT",
   "dependencies": {
+    "@buidlit/ds-demo-lib": "../ds-demo-lib",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
     "babel-core": "~5.8.33",
     "babel-eslint": "~4.1.3",
     "babel-loader": "~5.3.3",
@@ -33,8 +38,6 @@
     "on-build-webpack": "~0.1.0",
     "postcss-loader": "^0.8.0",
     "raw-loader": "~0.5.1",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
     "style-loader": "~0.13.0",
     "text-encoding": "^0.5.2",
     "url-loader": "~0.5.6",
