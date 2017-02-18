@@ -1,12 +1,13 @@
 import React from 'react';
 import { Header, Footer } from '@buildit/ds-demo-lib';
+import './styles.less';
 
 const App = () => {
   return (
-    <div>
-      <Header>This is a header</Header>
+    <div className="app1">
+      <Header>This is the Header for App 1</Header>
       This is my app
-      <Footer>This is a footer</Footer>
+      <Footer>The footer for App 1</Footer>
     </div>
   )
 };
