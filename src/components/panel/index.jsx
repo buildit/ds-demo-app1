@@ -26,19 +26,24 @@ const Panel = () => {
     ));
 
   return (
-    <div className="app-panel">
-      <table>
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Amount</th>
-            <th>Total</th>
-          </tr>
-        </thead>
-        <tbody>
-          {table}
-        </tbody>
-      </table>
+    <div className="appPanel">
+      <div className="mainContent">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Amount</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {table}
+          </tbody>
+        </table>
+      </div>
+      <div className="sidebar">
+        This is a sidebar
+      </div>
     </div>
   )
 };
