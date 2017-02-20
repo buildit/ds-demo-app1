@@ -1,11 +1,7 @@
 {
   "name": "webpack-spa",
   "version": "0.0.0",
-  "description": "SPA scaffold project",
-  "main": "dev-server.js",
-  "engines": {
-    "node": "6.4.0"
-  },
+  "description": "Desing System Demo App 1",
   "scripts": {
     "build": "webpack --colors",
     "dev": "webpack-dev-server --hot --inline --host 0.0.0.0"
@@ -18,6 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@buidlit/ds-demo-lib": "../ds-demo-lib",
+    "moment": "^2.17.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
