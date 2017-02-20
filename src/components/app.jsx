@@ -10,7 +10,7 @@ const data = [
 const App = () => {
   return (
     <div className="app1">
-      <Header>This is the Header for App 1</Header>
+      <Header title="Bank of Unicorn" />
       <Panel />
       <Footer>The footer for App 1</Footer>
     </div>
