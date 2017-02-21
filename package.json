@@ -1,10 +1,10 @@
 {
-  "name": "webpack-spa",
-  "version": "0.0.0",
+  "name": "@buildit/ds-demo-app1",
+  "version": "0.0.1",
   "description": "Desing System Demo App 1",
   "scripts": {
     "build": "webpack --colors",
-    "dev": "webpack-dev-server --hot --inline --host 0.0.0.0"
+    "dev": "webpack-dev-server --hot --inline --host 0.0.0.0 --port 9001"
   },
   "repository": {
     "type": "git",
