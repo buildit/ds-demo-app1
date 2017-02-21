@@ -7,7 +7,7 @@ function generateData(data) {
   let d = moment();
 
   for (let i = 0; i < 50; i++) {
-    data[i] = [ d.subtract(1, 'days').format('D/M/Y'), 0, 0 ];
+    data[i] = [ d.subtract(1, 'days').format('D/M/Y'), '£ 0.00', '£ 0.00' ];
   }
 
   return data;
@@ -47,13 +47,13 @@ class Panel extends React.Component {
     const table = this.state.data && (this.state.data.slice(p, p + 10)).map(item => (
         <tr>
           <td>{item[0]}</td>
-          <td>{item[1]}</td>
-          <td>{item[2]}</td>
+          <td className="financialValue">{item[1]}</td>
+          <td className="financialValue">{item[2]}</td>
         </tr>
       ));
 
     return (
-      <div className="appPanel">
+      <main className="appPanel">
         <div className="mainContent">
           <table>
             <thead>
@@ -72,7 +72,7 @@ class Panel extends React.Component {
           <button onClick={this.previousPage}>Previous</button>
           <button onClick={this.nextPage}>Next</button>
         </div>
-      </div>
+      </main>
     )
   }
 }

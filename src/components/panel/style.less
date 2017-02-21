@@ -3,18 +3,36 @@
 .appPanel {
   .content-wrapper();
   .grid-container();
+  margin-top: @spacing-margin-medium;
+  margin-bottom: @spacing-margin-medium;
 
   .mainContent {
     .grid-element(9);
+  }
 
-    table {
-      width: 100%;
+  table {
+    width: 100%;
 
-      td {
-        text-align: center;
-      }
+    th,
+    td {
+      padding: (@sizing-padding-small / 2) @sizing-padding-small;
+    }
+
+
+    th {
+      color: @color-inverted-fg;
+      background-color: @color-inverted-bg;
+    }
+
+    tbody tr:nth-child(even) td {
+      background-color: @color-pale-green;
+    }
+
+    .financialValue {
+      text-align: right;
     }
   }
+
 
   .sidebar {
     .grid-element(3);
