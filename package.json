@@ -13,7 +13,7 @@
   "author": "Wipro Digital",
   "license": "MIT",
   "dependencies": {
-    "@buidlit/ds-demo-lib": "../ds-demo-lib",
+    "@buildit/ds-demo-lib": "../ds-demo-lib",
     "moment": "^2.17.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
