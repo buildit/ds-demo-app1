@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment';
+import { Button } from '@buildit/ds-demo-lib';
 import './style.less';
 
 function generateData(data) {
@@ -69,8 +70,8 @@ class Panel extends React.Component {
           </table>
         </div>
         <div className="sidebar">
-          <button onClick={this.previousPage}>Previous</button>
-          <button onClick={this.nextPage}>Next</button>
+          <Button onClick={this.previousPage}>Previous</Button>
+          <Button onClick={this.nextPage}>Next</Button>
         </div>
       </main>
     )
